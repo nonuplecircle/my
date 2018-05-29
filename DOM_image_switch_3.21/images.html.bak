@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Pictures</title>
+  <link rel="stylesheet" href="layout.css" media="screen"/>
+  <style>
+
+  #back{
+  width:600px;
+  height:400px;
+  }
+  
+  </style>
+
+ </head>
+ <body class="show_picture">
+
+ <h1>These are pictures of animals.</h1>
+
+    <ul>
+
+     <li>
+       <a href="images/cat.jpg" onclick="square(this);return false;" title="cat">cat</a>
+     </li>
+     <li>
+       <a href="images/dog.jpg" onclick="square(this);return false;" title="dog">dog</a>
+     </li>
+     <li>
+       <a href="images/rabit.jpg" onclick="square(this);return false;" title="rabit">rabit</a>
+     </li>
+    </ul>
+ 
+
+ 
+     <img  id="back" src="images/back.jpg" alt="my imag gallery"/>
+   
+
+ <p id="des">Choose an image.</p>
+
+ <script src="images_switch.js">
+
+
+ </script>
+ </body>
+
+ </html>
+
+ 
+ 
+ 
